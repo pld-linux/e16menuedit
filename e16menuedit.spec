@@ -1,23 +1,23 @@
-Summary:	e16menuedit - menu editor for enlightenment
-Summary(pl):	e16menuedit - edytor menu dla enlightenment-a
+# TODO: optflags
+Summary:	e16menuedit - menu editor for Enlightenment
+Summary(pl):	e16menuedit - edytor menu dla Enlightenmenta
 Name:		e16menuedit
 Version:	0.1.3
 Release:	0.1
-License:	?
+License:	MIT-like
 Group:		X11/Window Managers/Tools
 Source0:	http://ftp.debian.org/debian/pool/main/e/e16menuedit/%{name}_%{version}.orig.tar.gz
 # Source0-md5:	737e41343a99256dd66dfae2c21bc375
-URL:		http://packages.qa.debian.org/e16menuedit/
 BuildRequires:	gtk+-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-e16menuedit is a gtk+ based program that allows configuration of menus
-for the enlightenment window manager.
+e16menuedit is a GTK+ based program that allows configuration of menus
+for the Enlightenment window manager.
 
 %description -l pl
-e16menuedit to oparte na gtk+ narzêdzie umo¿liwiaj±ce konfiguracjê
-menu dla zarz±dcy okien enlightenmenta.
+e16menuedit to oparte na GTK+ narzêdzie umo¿liwiaj±ce konfiguracjê
+menu dla zarz±dcy okien Enlightenment.
 
 %prep
 %setup -q -n %{name}-%{version}.orig
