@@ -8,6 +8,7 @@ Group:		X11/Window Managers/Tools
 Source0:	http://ftp.debian.org/debian/pool/main/e/e16menuedit/%{name}_%{version}.orig.tar.gz
 # Source0-md5:	737e41343a99256dd66dfae2c21bc375
 BuildRequires:	gtk+-devel
+Requires:	enlightenment
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
