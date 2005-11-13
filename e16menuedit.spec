@@ -1,9 +1,8 @@
-# TODO: optflags
 Summary:	e16menuedit - menu editor for Enlightenment
 Summary(pl):	e16menuedit - edytor menu dla Enlightenmenta
 Name:		e16menuedit
 Version:	0.1.3
-Release:	0.1
+Release:	1
 License:	MIT-like
 Group:		X11/Window Managers/Tools
 Source0:	http://ftp.debian.org/debian/pool/main/e/e16menuedit/%{name}_%{version}.orig.tar.gz
@@ -23,7 +22,9 @@ menu dla zarz±dcy okien Enlightenment.
 %setup -q -n %{name}-%{version}.orig
 
 %build
-%{__make}
+%{__make} \
+	CC="%{__cc}" \
+	CFLAGS="%{rpmcflags}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
