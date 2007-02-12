@@ -1,5 +1,5 @@
 Summary:	e16menuedit - menu editor for Enlightenment
-Summary(pl.UTF-8):   e16menuedit - edytor menu dla Enlightenmenta
+Summary(pl.UTF-8):	e16menuedit - edytor menu dla Enlightenmenta
 Name:		e16menuedit
 Version:	0.1.3
 Release:	1
