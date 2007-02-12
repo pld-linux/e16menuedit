@@ -1,5 +1,5 @@
 Summary:	e16menuedit - menu editor for Enlightenment
-Summary(pl):	e16menuedit - edytor menu dla Enlightenmenta
+Summary(pl.UTF-8):   e16menuedit - edytor menu dla Enlightenmenta
 Name:		e16menuedit
 Version:	0.1.3
 Release:	1
@@ -17,9 +17,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 e16menuedit is a GTK+ based program that allows configuration of menus
 for the Enlightenment window manager.
 
-%description -l pl
-e16menuedit to oparte na GTK+ narzêdzie umo¿liwiaj±ce konfiguracjê
-menu dla zarz±dcy okien Enlightenment.
+%description -l pl.UTF-8
+e16menuedit to oparte na GTK+ narzÄ™dzie umoÅ¼liwiajÄ…ce konfiguracjÄ™
+menu dla zarzÄ…dcy okien Enlightenment.
 
 %prep
 %setup -q -n %{name}-%{version}.orig
